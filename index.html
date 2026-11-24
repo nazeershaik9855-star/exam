@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h2>ABC College</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h1>Welcome to ABC College</h1>
+        <p>Learn Today, Lead Tomorrow!</p>
+    </section>
+
+    <!-- Courses Table -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Fees</th>
+            </tr>
+            <tr>
+                <td>CSE</td>
+                <td>4 Years</td>
+                <td>1,00,000</td>
+            </tr>
+            <tr>
+                <td>ECE</td>
+                <td>4 Years</td>
+                <td>90,000</td>
+            </tr>
+            <tr>
+                <td>EEE</td>
+                <td>4 Years</td>
+                <td>85,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name"
+                placeholder="Enter Your Name" required>
+
+            <input type="email" id="email"
+                placeholder="Enter Your Email" required>
+
+            <textarea id="message"
+                placeholder="Enter Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="result"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ABC College. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
